@@ -1,0 +1,9 @@
+- name: About
+  link: /about.md
+  image: about.JPG
+- name: Cosmology
+  link: /cosmology.md
+  image: cosmology.JPG
+- name: 3D Print
+  link: /3d-print.md
+  image: 3d_print.JPG
