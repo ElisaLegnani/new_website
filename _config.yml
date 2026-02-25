@@ -7,7 +7,17 @@ image_path: /new_website/assets/images
 #email: elegnani97@gmail.com
 #github_username:  ElisaLegnani
 
-#theme: minima
+contact:
+  -title: Email
+    url: mailto:elegnani97@gmail.com
+    icon: envelope
+  - title: GitHub
+    url: https://github.com/ElisaLenani
+    icon: github
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/elisa-legnani-32590819b/
+    icon: linkedin
+  
 plugins:
   - jekyll-target-blank
 
