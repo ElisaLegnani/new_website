@@ -3,16 +3,14 @@ layout: base
 ---
 
 <div class="home-image-container">
-    <img src="{{ site.image_path }}/elisa_2025.JPG" class="home-image">
+    <img src="{{ site.image_path }}/home.JPG" class="home-image">
 </div>
 
-<!--
 <div class="topic-container">
   {% for item in site.data.topics %}
-    <div class="topic" onclick="location.href='{{ item.link }}';">
+    <div class="topic" onclick="location.href='{{ item.link | relative_url }}';">
       <img src="{{ site.image_path }}/{{ item.image }}" class="topic-image">
       <span class="topic-title">{{ item.name }}</span>
     </div>
   {% endfor %}
 </div>
--->
