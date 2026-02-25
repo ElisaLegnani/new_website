@@ -1,10 +1,11 @@
-- title: "About"
-  url: /about/
-- title: "CV"
-  url: /cv/
-- title: "Cosmology"
-  url: /cosmology/
-- title: "3D Print"
-  url: /3d-print/
-- title: "Conding"
-  url: /coding/
+main:
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: /cv/
+  - title: "Cosmology"
+    url: /cosmology/
+  - title: "3D Print"
+    url: /3d-print/
+  - title: "Conding"
+    url: /coding/
