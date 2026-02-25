@@ -20,7 +20,6 @@
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
-  //letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
 
@@ -141,15 +140,7 @@
  * Site footer
  */
 .site-footer {
-  position: fixed;
-  bottom: -100px;
-  left: 0;
-  width: 100%;
-  transition: bottom 0.4s ease;
-}
-
-.site-footer.visible {
-  bottom: 0;
+  padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -261,7 +252,6 @@
   margin-bottom: 10px;
   @include relative-font-size(2.625);
   font-weight: $base-font-weight;
-  //letter-spacing: -1px;
   line-height: 1.15;
 
   @media screen and (min-width: $on-large) {
