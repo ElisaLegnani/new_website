@@ -156,12 +156,30 @@
 
 .contact-list {
   list-style: none;
-  margin-left: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* center icons horizontally */
+  gap: 1rem; /* spacing between icons */
+}
+
+.contact-list li {
+      display: inline-block; /* ensure li is inline */
 }
 
 .contact-links {
   @include relative-font-size(0.9375);
   color: $brand-color-dimmed;
+}
+
+.contact-list a {
+  font-size: 2rem;  /* bigger icons */
+  color: $brand-color-dimmed;
+  transition: color 0.3s;
+}
+
+.contact-list a:hover {
+  color: $link-hover-color;
 }
 
 .footer-text p {
