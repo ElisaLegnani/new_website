@@ -4,5 +4,5 @@
 @import "minima";
 
 .post-title {
-  letter-spacing: normal;  // removes -1px
+  letter-spacing: normal !important;  // removes -1px
 }
