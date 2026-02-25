@@ -28,7 +28,7 @@
   }
 
   &:hover {
-    color: #01a9ab;
+    color: #009294;
     text-decoration: none;
   }
 }
@@ -44,6 +44,12 @@
 
   .nav-item {
     color: $text-color;
+
+    &:hover {
+      color: #009294;
+      text-decoration: none;
+    }
+
     &:not(:last-child) {
       margin-right: $spacing-unit * 0.5;
     }
