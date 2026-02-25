@@ -9,7 +9,7 @@
         {%- for entry in site.contact -%}
           <li>
             <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
-              <span class="grey fa-{{ entry.style | default: 'brands' }} fa-{{ entry.icon }} fa-lg"></span>
+              <span class="fa-{{ entry.style | default: 'brands' }} fa-{{ entry.icon }} fa-lg"></span>
             </a>
           </li>
         {%- endfor -%}
