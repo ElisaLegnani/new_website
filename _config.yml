@@ -4,11 +4,8 @@ baseurl: "/new_website"
 url: "https://elisalegnani.github.io/new_website/"
 image_path: /new_website/assets/images
 
-#email: elegnani97@gmail.com
-#github_username:  ElisaLegnani
-
 contact:
-  -title: Email
+  - title: Email
     url: mailto:elegnani97@gmail.com
     icon: envelope
   - title: GitHub
