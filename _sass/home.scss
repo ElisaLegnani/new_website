@@ -1,0 +1,16 @@
+.home-image-container {
+  width: 100%;
+  height: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.home-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+  object-fit: cover;
+  display: block;
+}
