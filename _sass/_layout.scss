@@ -140,21 +140,13 @@
  * Site footer
  */
 .site-footer {
-  padding: $spacing-unit 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-image: url("{{ site.image_path }}/footer.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit * .5;
-}
-
-.feed-subscribe .svg-icon {
-  padding: 5px 5px 2px 0
 }
 
 .contact-list {
@@ -163,7 +155,7 @@
   margin: 0;
   display: flex;
   justify-content: center; /* center icons horizontally */
-  gap: 1rem; /* spacing between icons */
+  gap: 16px; /* spacing between icons */
 }
 
 .contact-list li {
@@ -171,7 +163,7 @@
 }
 
 .contact-list a {
-  font-size: 1.5rem;  /* bigger icons */
+  font-size: 24px;  /* bigger icons */
   color: $brand-color-light;
   transition: color 0.3s;
 }
@@ -186,7 +178,7 @@
 }
 
 .footer-text p {
-  margin: 0.5rem 0 0 0;
+  margin: 24px 0 0 0;
   font-size: $small-font-size;
   color: $brand-color-light;
 }
