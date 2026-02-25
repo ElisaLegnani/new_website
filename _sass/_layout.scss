@@ -141,6 +141,11 @@
  */
 .site-footer {
   padding: $spacing-unit 0;
+  background-image: url("{{ site.image_path }}/footer.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .footer-heading {
