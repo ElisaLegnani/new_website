@@ -34,7 +34,7 @@
   }
 
   &:hover {
-    color: #009294;
+    color: $link-hover-color;
     text-decoration: none;
   }
 }
@@ -52,7 +52,7 @@
     color: $text-color;
 
     &:hover {
-      color: #009294;
+      color: $link-hover-color;
       text-decoration: none;
     }
 
