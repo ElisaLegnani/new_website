@@ -164,22 +164,22 @@
 }
 
 .contact-list li {
-      display: inline-block; /* ensure li is inline */
-}
-
-.contact-links {
-  @include relative-font-size(0.9375);
-  color: $brand-color-dimmed;
+  display: inline-block; /* ensure li is inline */
 }
 
 .contact-list a {
-  font-size: 2rem;  /* bigger icons */
-  color: $brand-color-dimmed;
+  font-size: 1.5rem;  /* bigger icons */
+  color: $brand-color-light;
   transition: color 0.3s;
 }
 
 .contact-list a:hover {
   color: $link-hover-color;
+}
+
+.contact-links {
+  @include relative-font-size(0.9375);
+  color: $brand-color-light;
 }
 
 .footer-text p {

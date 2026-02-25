@@ -8,12 +8,15 @@ contact:
   - title: Email
     url: mailto:elegnani97@gmail.com
     icon: envelope
+    style: solid
   - title: GitHub
     url: https://github.com/ElisaLegnani
     icon: github
+    style: brands
   - title: LinkedIn
     url: https://www.linkedin.com/in/elisa-legnani-32590819b/
     icon: linkedin
+    style: brands
   
 plugins:
   - jekyll-target-blank
