@@ -164,6 +164,12 @@
   color: $brand-color-dimmed;
 }
 
+.footer-text p {
+  margin: 0.5rem 0 0 0;
+  font-size: $small-font-size;
+  color: $brand-color-light;
+}
+
 /**
  * Page content
  */

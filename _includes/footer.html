@@ -5,7 +5,15 @@
   <div class="wrapper">
 
     <div class="contact-links" style="margin-bottom: 1rem;">
-      {%- include contact.html -%}
+      <ul class="contact-list">
+        {%- for entry in site.contact -%}
+          <li>
+            <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
+              <span class="grey fa-brands fa-{{ entry.icon }} fa-lg"></span>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
     </div>
 
     <div class="footer-text">
@@ -15,3 +23,5 @@
   </div>
 
 </footer>
+
+
