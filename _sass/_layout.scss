@@ -141,8 +141,15 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $border-color-01;
-  padding: $spacing-unit 0;
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  transition: bottom 0.4s ease;
+}
+
+.site-footer.visible {
+  bottom: 0;
 }
 
 .footer-heading {
