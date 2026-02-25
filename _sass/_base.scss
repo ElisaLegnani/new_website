@@ -122,16 +122,16 @@ a {
 
   &:hover {
     color: $link-hover-color;
-    text-decoration: underline $link-hover-color;
-    text-underline-offset: 3px;
+    //text-decoration: underline $link-hover-color;
+    //text-underline-offset: 3px;
   }
 
   .social-media-list &:hover {
     text-decoration: none;
 
-    .username {
-      text-decoration:  none; //underline;
-    }
+   //.username {
+   //   text-decoration:  none; //underline;
+   //}
   }
 }
 

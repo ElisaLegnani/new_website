@@ -13,9 +13,9 @@ $text-color:            $brand-color-dark;
 $background-color:      #fdfdfd;
 $code-background-color: #f6f8fa;
 
-$link-base-color:       #007577;
+$link-base-color:       #008385;
 $link-visited-color:    darken($link-base-color, 15%);
-$link-hover-color:      $link-base-color;
+$link-hover-color:      darken($link-base-color, 35%);
 
 $border-color-01:       $brand-color-light;
 $border-color-02:       lighten($brand-color, 35%);
