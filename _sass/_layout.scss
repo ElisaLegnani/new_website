@@ -140,9 +140,9 @@
  * Site footer
  */
 .site-footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-image: url("{{ site.image_path }}/footer.JPG");
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("{{ '/assets/images/footer.JPG' | relative_url }}");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@
 }
 
 .footer-text p {
-  margin: 24px 0 0 0;
+  margin: 16px 0 0 0;
   font-size: $small-font-size;
   color: $brand-color-light;
 }
