@@ -7,7 +7,7 @@ permalink: /cv/
 My full CV is available [here](https://drive.google.com/file/d/1hqm60XJ0-QDLmXFYZ1klpW1z_U_48r6b/view). Below, you can find my contact information and a brief summary.
 
 * Table of Contents
-{:toc}
+{% toc levels=2..2 %}
 
 ## Contact me
 

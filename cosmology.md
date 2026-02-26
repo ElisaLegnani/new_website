@@ -5,7 +5,7 @@ permalink: /cosmology/
 ---
 
 * Table of Contents
-{:toc}
+{% toc levels=2..2 %}
 
 ## Publications
 
