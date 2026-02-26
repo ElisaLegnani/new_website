@@ -256,13 +256,36 @@ button:focus {
 #markdown-toc {
   list-style: none;
   padding-left: 32px;
-  display: inline;
-}
+  display: inline-block;
 
-#markdown-toc li {
-  display: inline;
-}
+  a {
+    color: $link-base-color;
 
-#markdown-toc li:not(:last-child)::after {
-  content: " | ";
-}
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: none;
+    }
+  }
+
+  li {
+    display:inline-block;
+    padding-right: 1rem;
+
+    &:not(:first-child) {
+      padding-left: 0.4rem;
+    }
+
+    &:not(:last-child) {
+      border-right: solid 1px $border-color;
+    }
+   }
+  }
+
+  .toc-entry.toc-h1,
+  .toc-entry.toc-h2,
+  .toc-entry.toc-h3,
+  .toc-entry.toc-h4,
+  .toc-entry.toc-h5,
+  .toc-entry.toc-h6 {
+    display: none;
+  }
