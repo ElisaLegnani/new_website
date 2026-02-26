@@ -8,7 +8,7 @@ Visit the Direrct3D [website](https://www.direct3d.it).
 
 ---
 
-<img class="post-img" width="180" align="right" src="/assets/img/mav.jpg"/>
+<img class="post-img" width="200" align="right" src="/assets/img/mav.jpg"/>
 
 #### Additive fabrication of a vascular 3D phantom for stereotactic radiosurgery of arteriovenous malformations
 
