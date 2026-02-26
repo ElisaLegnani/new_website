@@ -68,8 +68,7 @@ arXiv (journal TBD), Jan 2026
 
 Analysis of the impact of gravitational lensing magnification on DES Y6 galaxy clustering and galaxy–galaxy lensing measurements, using synthetic source injection to model magnification bias and ensure unbiased cosmological constraints.  
 
-[<button>Paper</button>](https://ui.adsabs.harvard.edu/abs/2026arXiv260114833L/abstract) [<button>📄 PDF</button>](https://arxiv.org/pdf/2601.14833) 
-
-<!--<a href="https://www.liebertpub.com/doi/10.1089/3dp.2020.0305" class="button">Paper</a>-->
+<a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260114833L/abstract" class="button" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://arxiv.org/pdf/2601.14833" class="button" target="_blank" rel="noopener noreferrer">📄 PDF</a>
 
 ---
