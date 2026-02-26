@@ -5,7 +5,7 @@ permalink: /3d-print/
 ---
 
 * Table of Contents
-{% toc levels=2..2 %}
+{:toc}
 
 ## Direct3D
 
