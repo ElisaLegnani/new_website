@@ -24,7 +24,9 @@ The Open Journal of Astrophysics, Feb 2023
 
 A condensed overview of common notations and concepts relevant for describing the intrinsic alignment (IA) of galaxies.  
 
-[<button>Paper</button>](https://astro.theoj.org/article/94228-the-ia-guide-a-breakdown-of-intrinsic-alignment-formalisms) [<button>📄 PDF</button>](https://arxiv.org/pdf/2309.08605v2)
+<a href="https://astro.theoj.org/article/94228-the-ia-guide-a-breakdown-of-intrinsic-alignment-formalisms" class="button" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://arxiv.org/pdf/2309.08605v2" class="button" target="_blank" rel="noopener noreferrer">📄 PDF</a>
+
 
 ---
 
@@ -38,7 +40,9 @@ arXiv (journal TBD), Oct 2024
 
 A cosmic shear reanalysis of the DES Y3 data limited to a pure sample of blue, star-forming galaxies, which is expected to be less impacted by IA.  
 
-[<button>Paper</button>](https://ui.adsabs.harvard.edu/abs/2024arXiv241022272M/abstract) [<button>📄 PDF</button>](https://arxiv.org/pdf/2410.22272) [<button>Data</button>](https://jamiemccullough.github.io/data/blueshear/)
+<a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241022272M/abstract" class="button" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://arxiv.org/pdf/2410.22272" class="button" target="_blank" rel="noopener noreferrer">📄 PDF</a>
+<a href="https://jamiemccullough.github.io/data/blueshear/" class="button" target="_blank" rel="noopener noreferrer">Data</a>
 
 ---
 
@@ -53,7 +57,8 @@ The Open Journal of Astrophysics, May 2025
 
 A catalog of 146 million synthetic injections across the DES 5000 deg² footprint to characterize image processing and support DES Y6 cosmology analyses.  
 
-[<button>Paper</button>](https://astro.theoj.org/article/138627-dark-energy-survey-year-6-results-synthetic-source-injection-across-the-full-survey-using-balrog) [<button>📄 PDF</button>](https://arxiv.org/pdf/2501.05683v3)
+<a href="https://astro.theoj.org/article/138627-dark-energy-survey-year-6-results-synthetic-source-injection-across-the-full-survey-using-balrog" class="button" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://arxiv.org/pdf/2501.05683v3" class="button" target="_blank" rel="noopener noreferrer">📄 PDF</a>
 
 ---
 
