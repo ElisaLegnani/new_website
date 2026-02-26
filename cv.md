@@ -38,5 +38,5 @@ Campus UAB, Facultat Ciencies Nord
   Focus: Astrophysics, Statistics, Computer Science  
   Thesis: *Distinguishing Dark Energy Survey Year 3 lensing source galaxies by physical properties using artificial intelligence for improved intrinsic alignment modelling*  
 
-  Degree: BSc in Physics
+  Degree: BSc in Physics  
   Thesis: *Additive fabrication of a vascular 3D phantom for stereotactic radiosurgery of arteriovenous malformations*
