@@ -8,17 +8,17 @@ My full CV is available [here](https://drive.google.com/file/d/1hqm60XJ0-QDLmXFY
 
 ## Contact me
 
-<i class="fa-solid fa-map-pin" style="color: $brand-color-dimmed;"></i> Institut de Física d’Altes Energies (IFAE)
+<i class="fa-solid fa-map-pin" style="color: $brand-color-dimmed;"></i> Institut de Física d’Altes Energies (IFAE)  
 Campus UAB, Facultat Ciencies Nord  
 08193 Bellaterra (Barcelona), Spain 🇪🇸
 
-<i class="fa-solid fa-envelope"></i>[elegnani@ifae.es](mailto:elegnani97@gmail.com)
+<i class="fa-solid fa-envelope"></i> [elegnani@ifae.es](mailto:elegnani97@gmail.com)
 
 ## Work Experience
 
 - 2022–Present | **Institut de Física d'Altes Energies** ([IFAE](https://www.ifae.es/)), Barcelona 🇪🇸  
   Position: Pre-doctoral Researcher  
-  Projects: [DES](link), [LSST](link)  
+  Projects: [DES](https://www.darkenergysurvey.org/), [LSST DESC](https://lsstdesc.org/)  
 
 - 2018–2022 | **Direct3D**, Milan 🇮🇹  
   Position: Co-founder  
@@ -31,7 +31,7 @@ Campus UAB, Facultat Ciencies Nord
 
 - 2021–2022 | **Ludwig Maximilians University**, Munich 🇩🇪  
   Award: ERASMUS and Thesis Abroad scholarships  
-  Projects: [DES](link), [ACAI](link)
+  Projects: [DES](https://www.darkenergysurvey.org/), [ACAI](https://www.physik.lmu.de/observatory/en/research/cosmology/acai-group/)
 
 - 2016–2022 | **University of Milan**, Milan 🇮🇹  
   Degree: MSc in Physics  
