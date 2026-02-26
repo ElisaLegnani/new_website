@@ -253,15 +253,16 @@ button:focus {
 /**
  * Table of contents
  */
-.toc-inline ul {
+#markdown-toc {
   list-style: none;
   padding-left: 32px;
-}
-
-.toc-inline ul li {
   display: inline;
 }
 
-.toc-inline ul li:not(:last-child)::after {
+#markdown-toc li {
+  display: inline;
+}
+
+#markdown-toc li:not(:last-child)::after {
   content: " | ";
 }
