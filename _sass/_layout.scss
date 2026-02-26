@@ -241,6 +241,7 @@ button {
   border-radius: 3px;
   border-bottom-color: darken($brand-color-dimmed, 2%);
   border-right-color: darken($brand-color-dimmed, 2%);
+  cursor: pointer;
 }
 button:hover,
 button:focus {
