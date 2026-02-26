@@ -30,7 +30,7 @@ Campus UAB, Facultat Ciencies Nord
   Thesis: *Weak lensing and galaxy clustering with the Dark Energy Survey*  
 
 - 2021–2022 | **Ludwig Maximilians University**, Munich 🇩🇪  
-  Award: ERASMUS and Thesis Abroad scholarships  
+  Award: Thesis Abroad scholarship  
   Projects: [DES](https://www.darkenergysurvey.org/), [ACAI](https://www.physik.lmu.de/observatory/en/research/cosmology/acai-group/)
 
 - 2016–2022 | **University of Milan**, Milan 🇮🇹  
