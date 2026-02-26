@@ -26,6 +26,5 @@ E. Legnani, et al.
 
 Manufacturing of realistic 3D cerebrovascular phantoms that replicate brain arteriovenous malformations, intended for use in stereotactic radiosurgery.
 
-[<button>Paper</button>](https://www.liebertpub.com/doi/10.1089/3dp.2020.0305)
-
+<a href="https://www.liebertpub.com/doi/10.1089/3dp.2020.0305" class="button">Paper</a>
 ---

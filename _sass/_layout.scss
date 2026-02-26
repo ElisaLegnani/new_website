@@ -234,7 +234,7 @@
 /**
  * Buttons
  */
-button {
+.button {
   padding: 2px 4px;
   color: #fff;
   background-color: $brand-color-dimmed;
@@ -243,8 +243,8 @@ button {
   border-right-color: darken($brand-color-dimmed, 2%);
   cursor: pointer;
 }
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: $link-hover-color;
 }
 
