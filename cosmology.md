@@ -6,7 +6,7 @@ permalink: /cosmology/
 
 ## Publications
 
-Full list of my papers on [ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=elisa%20legnani&sort=date%20desc%2C%20bibcode%20desc&p_=0).
+The full list of my papers is on [ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=elisa%20legnani&sort=date%20desc%2C%20bibcode%20desc&p_=0).
 
 ---
 
@@ -54,9 +54,9 @@ A catalog of 146 million synthetic injections across the DES 5000 deg² footprin
 
 ---
 
-<img class="post-img" width="220" align="right" src="https://raw.githubusercontent.com/ElisaLegnani/new_website/style_edits/assets/images/magnification_paper.png"/>
+<img class="post-img" width="220" margin-top="16" align="right" src="https://raw.githubusercontent.com/ElisaLegnani/new_website/style_edits/assets/images/magnification_paper.png"/>
 
-#### Dark Energy Survey Year 6 Results: Magnification Modeling and Its Impact on Galaxy Clustering and Galaxy-Galaxy Lensing Cosmology
+#### Dark Energy Survey Year 6 Results: Magnification Modeling and its Impact on Galaxy Clustering and Galaxy-Galaxy Lensing Cosmology
 
 <span class="small-text">
 E. Legnani, et al.  
