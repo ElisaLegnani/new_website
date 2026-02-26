@@ -10,8 +10,6 @@ Full list of my papers on [ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type
 
 ---
 
-### Intrinsic Alignments
-
 <img class="post-img" width="180" align="right" src="/assets/img/IAguide.png"/>
 
 **The IA Guide: A Breakdown of Intrinsic Alignment Formalisms**  
@@ -25,8 +23,6 @@ A condensed overview of common notations and concepts relevant for describing th
 [<button>Paper</button>](https://astro.theoj.org/article/94228-the-ia-guide-a-breakdown-of-intrinsic-alignment-formalisms) [<button>📄 PDF</button>](https://arxiv.org/pdf/2309.08605v2)
 
 ---
-
-### Cosmic Shear with Blue Galaxies
 
 <img class="post-img" width="200" align="right" src="/assets/img/blueshear.png"/>
 
@@ -42,8 +38,6 @@ A cosmic shear reanalysis of the DES Y3 data limited to a pure sample of blue, s
 
 ---
 
-### Magnification
-
 **Dark Energy Survey Year 6 Results: Magnification Modeling and Its Impact on Galaxy Clustering and Galaxy-Galaxy Lensing Cosmology**  
 <span class="small-text">
 E. Legnani, et al.  
@@ -55,8 +49,6 @@ Analysis of the impact of gravitational lensing magnification on DES Y6 galaxy c
 [<button>Paper</button>](https://ui.adsabs.harvard.edu/abs/2026arXiv260114833L/abstract) [<button>📄 PDF</button>](https://arxiv.org/pdf/2601.14833) 
 
 ---
-
-### Synthetic-Source Injection
 
 <img class="post-img" width="210" align="right" src="/assets/img/balrog.png"/>
 
