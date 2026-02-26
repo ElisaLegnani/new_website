@@ -1,4 +1,4 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon 
 function myFunction() {
   var x = document.getElementById("topnav");
   if (x.className === "topnav") {
@@ -8,7 +8,7 @@ function myFunction() {
   }
 }
 
-/* Close mobile menu when clicking outside */
+Close mobile menu when clicking outside 
 document.addEventListener('click', function(event) {
   var topnav = document.getElementById("topnav");
   var icon = document.querySelector('.icon');
@@ -19,3 +19,4 @@ document.addEventListener('click', function(event) {
     topnav.className = "topnav";
   }
 });
+*/

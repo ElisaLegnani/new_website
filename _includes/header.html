@@ -1,16 +1,35 @@
 <script src="/assets/js/header-scroll.js"></script>
 
-<header class="site-header">
+<header class="site-header" id="topnav">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+      {{ site.title | escape }}
+    </a>
 
-    <nav id="topnav" class="topnav site-nav">
+    <nav class="site-nav">
+      <!-- Hidden checkbox for mobile menu toggle -->
       <input type="checkbox" id="nav-trigger" />
-      <label for="nav-trigger" class="icon" onclick="myFunction()">
-        &#9776;
+      <!-- Label with hamburger icon -->
+      <label for="nav-trigger" class="icon">
+        <span class="menu-icon"></span>
       </label>
 
       {% include nav-items.html paths = page_paths %}
     </nav>
   </div>
 </header>
+
+<script>
+document.addEventListener('click', function(event) {
+  const navTrigger = document.getElementById('nav-trigger');
+  const topnav = document.getElementById('topnav');
+  const icon = document.querySelector('label[for="nav-trigger"]');
+
+  // If menu is open and click is outside menu + hamburger
+  if (navTrigger.checked &&
+      !topnav.contains(event.target) &&
+      !icon.contains(event.target)) {
+    navTrigger.checked = false; // closes the menu
+  }
+});
+</script>
