@@ -39,20 +39,7 @@ A cosmic shear reanalysis of the DES Y3 data limited to a pure sample of blue, s
 
 ---
 
-#### Dark Energy Survey Year 6 Results: Magnification Modeling and Its Impact on Galaxy Clustering and Galaxy-Galaxy Lensing Cosmology
-
-<span class="small-text">
-E. Legnani, et al.  
-arXiv (journal TBD), Jan 2026
-</span>
-
-Analysis of the impact of gravitational lensing magnification on DES Y6 galaxy clustering and galaxy–galaxy lensing measurements, using synthetic source injection to model magnification bias and ensure unbiased cosmological constraints.  
-
-[<button>Paper</button>](https://ui.adsabs.harvard.edu/abs/2026arXiv260114833L/abstract) [<button>📄 PDF</button>](https://arxiv.org/pdf/2601.14833) 
-
----
-
-<img class="post-img" width="210" align="right" src="/assets/img/balrog.png"/>
+<img class="post-img" width="220" align="right" src="/assets/img/balrog.png"/>
 
 #### Dark Energy Survey Year 6 Results: Synthetic-Source Injection Across the Full Survey Using Balrog
 
@@ -64,5 +51,18 @@ The Open Journal of Astrophysics, May 2025
 A catalog of 146 million synthetic injections across the DES 5000 deg² footprint to characterize image processing and support DES Y6 cosmology analyses.  
 
 [<button>Paper</button>](https://astro.theoj.org/article/138627-dark-energy-survey-year-6-results-synthetic-source-injection-across-the-full-survey-using-balrog) [<button>📄 PDF</button>](https://arxiv.org/pdf/2501.05683v3)
+
+---
+
+#### Dark Energy Survey Year 6 Results: Magnification Modeling and Its Impact on Galaxy Clustering and Galaxy-Galaxy Lensing Cosmology
+
+<span class="small-text">
+E. Legnani, et al.  
+arXiv (journal TBD), Jan 2026
+</span>
+
+Analysis of the impact of gravitational lensing magnification on DES Y6 galaxy clustering and galaxy–galaxy lensing measurements, using synthetic source injection to model magnification bias and ensure unbiased cosmological constraints.  
+
+[<button>Paper</button>](https://ui.adsabs.harvard.edu/abs/2026arXiv260114833L/abstract) [<button>📄 PDF</button>](https://arxiv.org/pdf/2601.14833) 
 
 ---
