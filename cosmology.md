@@ -12,10 +12,10 @@ Full list of my papers on [ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type
 
 ### Intrinsic Alignments
 
-<img class="post-img" width="160" align="right" src="/assets/img/IAguide.png"/>
+<img class="post-img" width="180" align="right" src="/assets/img/IAguide.png"/>
 
-The IA Guide: A Breakdown of Intrinsic Alignment Formalisms
-<span style="font-size:0.85em; color:#555;">
+**The IA Guide: A Breakdown of Intrinsic Alignment Formalisms**  
+<span style="font-size:$small-font-size; color:$brand-color;">
 C. Lamman, E. Tsaprazi, J. Shi, N. Šarčević, S. Pyne, E. Legnani, T. Ferreira  
 The Open Journal of Astrophysics, Feb 2023
 </span>
@@ -28,10 +28,10 @@ A concise overview of key notations and concepts for describing the intrinsic al
 
 ### Cosmic Shear with Blue Galaxies
 
-<img class="post-img" width="200" align="right" src="/assets/img/blueshear.png"/>
+<img class="post-img" width="220" align="right" src="/assets/img/blueshear.png"/>
 
-Dark Energy Survey Year 3: Blue Shear
-<span style="font-size:0.85em; color:#555;">
+**Dark Energy Survey Year 3: Blue Shear**  
+<span style="font-size:$small-font-size; color:$brand-color;">
 J. McCullough, A. Amon, E. Legnani, D. Gruen, et al.  
 arXiv (journal TBD), Oct 2024
 </span>
@@ -44,8 +44,8 @@ A reanalysis of DES Y3 cosmic shear data focusing exclusively on blue, star-form
 
 ### Magnification
 
-Dark Energy Survey Year 6 Results: Magnification Modeling and Its Impact on Galaxy Clustering and Galaxy-Galaxy Lensing Cosmology
-<span style="font-size:0.85em; color:#555;">
+**Dark Energy Survey Year 6 Results: Magnification Modeling and Its Impact on Galaxy Clustering and Galaxy-Galaxy Lensing Cosmology**  
+<span style="font-size:$small-font-size; color:$brand-color;">
 E. Legnani, et al.  
 arXiv (journal TBD), Jan 2026
 </span>
@@ -58,10 +58,10 @@ Analysis of lensing magnification effects on DES Y6 galaxy clustering and galaxy
 
 ### Synthetic-Source Injection
 
-<img class="post-img" width="200" align="right" src="/assets/img/balrog.png"/>
+<img class="post-img" width="220" align="right" src="/assets/img/balrog.png"/>
 
-Dark Energy Survey Year 6 Results: Synthetic-Source Injection Across the Full Survey Using Balrog  
-<span style="font-size:0.85em; color:#555;">
+**Dark Energy Survey Year 6 Results: Synthetic-Source Injection Across the Full Survey Using Balrog**  
+<span style="font-size:$small-font-size; color:$brand-color;">
 D. Anbajagane, M. Tabbutt, et al. (incl. E. Legnani)  
 The Open Journal of Astrophysics, May 2025
 </span>
