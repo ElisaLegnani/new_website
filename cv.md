@@ -6,6 +6,9 @@ permalink: /cv/
 
 My full CV is available [here](https://drive.google.com/file/d/1hqm60XJ0-QDLmXFYZ1klpW1z_U_48r6b/view). Below, you can find my contact information and a brief summary.
 
+* Table of Contents
+{:toc}
+
 ## Contact me
 
 <i class="fa-solid fa-map-pin" style="color:#818181+lighten(11%);"></i> Institut de Física d’Altes Energies (IFAE)  
