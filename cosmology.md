@@ -28,7 +28,7 @@ A concise overview of key notations and concepts for describing the intrinsic al
 
 ### Cosmic Shear with Blue Galaxies
 
-<img class="post-img" width="220" align="right" src="/assets/img/blueshear.png"/>
+<img class="post-img" width="200" align="right" src="/assets/img/blueshear.png"/>
 
 **Dark Energy Survey Year 3: Blue Shear**  
 <span style="font-size:$small-font-size; color:$brand-color;">
@@ -58,7 +58,7 @@ Analysis of lensing magnification effects on DES Y6 galaxy clustering and galaxy
 
 ### Synthetic-Source Injection
 
-<img class="post-img" width="220" align="right" src="/assets/img/balrog.png"/>
+<img class="post-img" width="200" align="right" src="/assets/img/balrog.png"/>
 
 **Dark Energy Survey Year 6 Results: Synthetic-Source Injection Across the Full Survey Using Balrog**  
 <span style="font-size:$small-font-size; color:$brand-color;">
