@@ -10,9 +10,9 @@ My full CV is available [here](https://drive.google.com/file/d/1hqm60XJ0-QDLmXFY
 
 <i class="fa-solid fa-map-pin" style="color: $brand-color-dimmed;"></i> Institut de Física d’Altes Energies (IFAE)
 Campus UAB, Facultat Ciencies Nord
-08193 Bellaterra (Barcelona), Spain <i class="fi fi-es"></i> 
+08193 Bellaterra (Barcelona), Spain 🇪🇸
 
-<p><i class="fa-solid fa-envelope"></i>[elegnani@ifae.es](mailto:elegnani97@gmail.com)
+<i class="fa-solid fa-envelope"></i>[elegnani@ifae.es](mailto:elegnani97@gmail.com)
 
 ## Work Experience
 
