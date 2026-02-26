@@ -247,3 +247,21 @@ button:hover,
 button:focus {
   background-color: $link-hover-color;
 }
+
+
+
+/**
+ * Table of contents
+ */
+.toc-inline ul {
+  list-style: none;
+  padding-left: 32px;
+}
+
+.toc-inline ul li {
+  display: inline;
+}
+
+.toc-inline ul li:not(:last-child)::after {
+  content: " | ";
+}
