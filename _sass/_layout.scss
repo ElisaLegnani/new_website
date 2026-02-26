@@ -268,14 +268,14 @@ button:focus {
 
   li {
     display:inline-block;
-    padding-right: 1rem;
+    padding-right: 0.7rem;
 
     &:not(:first-child) {
       padding-left: 0.4rem;
     }
 
     &:not(:last-child) {
-      border-right: solid 1px $border-color;
+      border-right: solid 1px $brand-color-dimmed;
     }
    }
   }
