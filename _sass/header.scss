@@ -2,22 +2,21 @@
  * Site header
  */
 .site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  //position: relative;
   width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
   background-color: $background-color;
+  //border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
-  padding: 1rem 2rem;
-  transition: opacity 0.3s ease, padding 0.3s ease;
+  top: 0; 
+  position: sticky;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
 
   &.scrolled {
-    opacity: 0.85;
-    padding: 0.75rem 2rem; // shrink header without scaling content
-
+    opacity: 0.8;
+    
     &:hover {
       opacity: 1;
     }
@@ -28,61 +27,114 @@
   margin: 0;
   font-weight: 300;
   font-size: 1.625rem;
-  transition: font-size 0.3s ease;
 
-  .site-header.scrolled & {
-    font-size: 1.5rem; // slightly smaller on scroll
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
   }
 }
 
 .site-nav {
-  display: flex;
-  gap: $spacing-unit;
-  transition: font-size 0.3s ease;
+  float: right;
+  border: none;
+  background-color: inherit;
 
-  .site-header.scrolled & {
-    font-size: 0.95rem; // optional shrink links
+  label[for="nav-trigger"], #nav-trigger {
+    display: none;
   }
-}
 
-@include media-query($on-medium) {
-  .site-nav {
+  .nav-item {
+    color: $text-color;
+
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: none;
+    }
+
+    &:not(:last-child) {
+      margin-right: $spacing-unit * 0.5;
+    }
+  }
+
+  @include media-query($on-medium) {
     position: absolute;
-    top: 100%; // dropdown below header
-    right: 0;
-    flex-direction: column;
+    top: 9px;
+    right: $spacing-unit * 0.6;
     background-color: $background-color;
     border: 1px solid $border-color-01;
     border-radius: 5px;
     text-align: right;
-    display: none; // hidden by default
-    min-width: 180px; // ensures dropdown doesn’t collapse
 
-    &.open {
-      display: flex;
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 18px;
+      text-align: center;
+
+      &::before {
+        font-family: "Font Awesome 7 Free";
+        font-weight: 900;
+      }
+
+      > svg path {
+        fill: $border-color-03;
+      }
+    }
+
+    #nav-trigger {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f0c9";
+          font-size: 1.25em;
+        }
+      }
+      ~ .nav-items {
+        clear: both;
+        display: none
+      }
+      &:checked {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f00d";
+          font-size: 1.5em;
+        }
+      }
+        ~ .nav-items {
+          display: block;
+          padding-bottom: 5px;
+          .nav-item {
+            margin-left: 20px;
+            padding: 5px 10px;
+          }
+        }
+      }
     }
 
     .nav-item {
-      padding: 1rem 1.5rem;
-      margin: 0;
-      width: 100%;
-      text-align: left;
+      display: block;
+      margin-right: $spacing-unit * 0.5;
+      padding: 5px 0;
+      color: $text-color;
+      line-height: $base-line-height;
     }
-  }
-
-  label[for="nav-trigger"] {
-    display: block;
-    cursor: pointer;
-  }
-}
-
-.nav-item {
-  color: $text-color;
-  text-decoration: none;
-  transition: color 0.3s, background-color 0.3s;
-
-  &:hover {
-    color: $link-hover-color;
-    background-color: rgba(0, 0, 0, 0.05);
   }
 }
