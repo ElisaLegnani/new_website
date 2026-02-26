@@ -33,6 +33,11 @@
   @include relative-font-size(1.5);
 }
 
+.small-text {
+  font-size: $small-font-size;
+  color: $brand-color;
+}
+
 
 
 /**
