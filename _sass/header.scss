@@ -11,10 +11,13 @@
   z-index: 1000;
   background-color: $background-color;
   border-bottom: 1px solid $border-color-01;
-  transition: opacity 0.3s ease;
+  padding: 1rem 2rem;
+  transition: opacity 0.3s ease, padding 0.3s ease;
 
   &.scrolled {
-    opacity: 0.8;
+    opacity: 0.85;
+    padding: 0.75rem 2rem; // shrink header without scaling content
+
     &:hover {
       opacity: 1;
     }
@@ -25,23 +28,27 @@
   margin: 0;
   font-weight: 300;
   font-size: 1.625rem;
-}
+  transition: font-size 0.3s ease;
 
-.site-title {
-  margin: 0;
-  font-weight: 300;
-  font-size: 1.625rem; // or use the existing mixin
+  .site-header.scrolled & {
+    font-size: 1.5rem; // slightly smaller on scroll
+  }
 }
 
 .site-nav {
   display: flex;
-  gap: $spacing-unit; // instead of margin-right on each nav-item
+  gap: $spacing-unit;
+  transition: font-size 0.3s ease;
+
+  .site-header.scrolled & {
+    font-size: 0.95rem; // optional shrink links
+  }
 }
 
 @include media-query($on-medium) {
   .site-nav {
     position: absolute;
-    top: 100%; // below header
+    top: 100%; // dropdown below header
     right: 0;
     flex-direction: column;
     background-color: $background-color;
@@ -49,8 +56,9 @@
     border-radius: 5px;
     text-align: right;
     display: none; // hidden by default
+    min-width: 180px; // ensures dropdown doesn’t collapse
 
-    &.open { // you can toggle this class with JS
+    &.open {
       display: flex;
     }
 
@@ -75,6 +83,6 @@
 
   &:hover {
     color: $link-hover-color;
-    background-color: rgba(0,0,0,0.05); // subtle hover highlight
+    background-color: rgba(0, 0, 0, 0.05);
   }
 }
