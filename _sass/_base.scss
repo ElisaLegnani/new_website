@@ -47,9 +47,9 @@ ul, ol, dl, figure,
 }
 
 hr {
-  margin-top: $spacing-unit * .8;
-  margin-bottom: $spacing-unit * .8;
-  background-color: #e7e7e7;
+  border: 0;
+  border-top: 1px solid #e7e7e7;
+  margin: $spacing-unit * 0.8 0;
 }
 
 /**
