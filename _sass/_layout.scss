@@ -241,10 +241,12 @@
   color: #fff;
   background-color: $brand-color-dimmed;
   border-radius: 3px;
-  border-bottom: 4px solid $brand-color-dark;
-  border-right: 4px solid $brand-color-dark;
+  border-bottom: 2px solid $brand-color-dark;
+  border-right: 2px solid $brand-color-dark;
+  border-top: 2px solid $brand-color-dimmed;
+  border-left: 2px solid $brand-color-dimmed;
   cursor: pointer;
-}
+}s
 
 .button:link,
 .button:visited {
