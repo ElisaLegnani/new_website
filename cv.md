@@ -9,7 +9,7 @@ My full CV is available [here](https://drive.google.com/file/d/1hqm60XJ0-QDLmXFY
 ## Contact me
 
 <i class="fa-solid fa-map-pin" style="color: $brand-color-dimmed;"></i> Institut de Física d’Altes Energies (IFAE)
-Campus UAB, Facultat Ciencies Nord
+Campus UAB, Facultat Ciencies Nord  
 08193 Bellaterra (Barcelona), Spain 🇪🇸
 
 <i class="fa-solid fa-envelope"></i>[elegnani@ifae.es](mailto:elegnani97@gmail.com)
@@ -17,7 +17,7 @@ Campus UAB, Facultat Ciencies Nord
 ## Work Experience
 
 - 2022–Present | **Institut de Física d'Altes Energies** ([IFAE](https://www.ifae.es/)), Barcelona 🇪🇸  
-  Position: Pre-doctoral Researcher 
+  Position: Pre-doctoral Researcher  
   Projects: [DES](link), [LSST](link)  
 
 - 2018–2022 | **Direct3D**, Milan 🇮🇹  
@@ -34,9 +34,10 @@ Campus UAB, Facultat Ciencies Nord
   Projects: [DES](link), [ACAI](link)
 
 - 2016–2022 | **University of Milan**, Milan 🇮🇹  
-  Degree: MSc in Physics
+  Degree: MSc in Physics  
   Focus: Astrophysics, Statistics, Computer Science  
   Thesis: *Distinguishing Dark Energy Survey Year 3 lensing source galaxies by physical properties using artificial intelligence for improved intrinsic alignment modelling*  
 
   Degree: BSc in Physics  
   Thesis: *Additive fabrication of a vascular 3D phantom for stereotactic radiosurgery of arteriovenous malformations*
+  
