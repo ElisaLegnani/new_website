@@ -2,19 +2,25 @@
  * Site header
  */
 .site-header {
-  position: relative;
+  //position: relative;
   width: 100%;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
   background-color: $background-color;
-  border-top: 5px solid $border-color-03;
+  //border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
-}
+  top: 0; 
+  position: sticky;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
 
-.site-header.scrolled {
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-opaque on scroll */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);      /* Subtle shadow */
-  backdrop-filter: blur(10px);                /* Optional blur for modern effect */
+  &.scrolled {
+    opacity: 0.8;
+    
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 .site-title {
