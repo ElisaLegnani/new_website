@@ -20,7 +20,7 @@ C. Lamman, E. Tsaprazi, J. Shi, N. Šarčević, S. Pyne, E. Legnani, T. Ferreira
 The Open Journal of Astrophysics, Feb 2023
 </span>
 
-A concise overview of key notations and concepts for describing the intrinsic alignment (IA) of galaxies.  
+A condensed overview of common notations and concepts relevant for describing the intrinsic alignment (IA) of galaxies.  
 
 [<button>📄 PDF</button>](https://doi.org/10.21105/astro.2309.08605) [<button>🔗 DOI</button>](https://doi.org/10.21105/astro.2309.08605) [<button>🛰️ ADS</button>](https://ui.adsabs.harvard.edu/abs/2023OJAp....6...XX) [<button>📥 ArXiv</button>](https://arxiv.org/abs/2309.08605)
 
@@ -36,7 +36,7 @@ J. McCullough, A. Amon, E. Legnani, D. Gruen, et al.
 arXiv (journal TBD), Oct 2024
 </span>
 
-A reanalysis of DES Y3 cosmic shear data focusing exclusively on blue, star-forming galaxies to reduce intrinsic alignment contamination.  
+A cosmic shear reanalysis of the DES Y3 data limited to a pure sample of blue, star-forming galaxies, which is expected to be less impacted by IA.  
 
 [<button>📄 PDF</button>](https://arxiv.org/abs/2410.22272) [<button>🛰️ ADS</button>](https://ui.adsabs.harvard.edu/abs/2024DES....Y3XXXX) [<button>📥 ArXiv</button>](https://arxiv.org/abs/2410.22272)
 
@@ -50,7 +50,7 @@ E. Legnani, et al.
 arXiv (journal TBD), Jan 2026
 </span>
 
-Analysis of lensing magnification effects on DES Y6 galaxy clustering and galaxy–galaxy lensing. Uses synthetic source injection to model magnification bias for unbiased cosmological constraints.  
+Analysis of the impact of gravitational lensing magnification on DES Y6 galaxy clustering and galaxy–galaxy lensing measurements, using synthetic source injection to model magnification bias and ensure unbiased cosmological constraints.  
 
 [<button>📄 PDF</button>](#) [<button>🔗 DOI</button>](#) [<button>🛰️ ADS</button>](#) [<button>📥 ArXiv</button>](#)
 
