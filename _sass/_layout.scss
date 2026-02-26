@@ -235,19 +235,25 @@
  * Buttons
  */
 .button {
+  display: inline-block;  /* Makes <a> behave like a button */
   padding: 2px 4px;
   color: #fff;
   background-color: $brand-color-dimmed;
   border-radius: 3px;
-  border-bottom-color: darken($brand-color-dimmed, 2%);
-  border-right-color: darken($brand-color-dimmed, 2%);
+  border-bottom-color: $brand-color-dark;
+  border-right-color: $brand-color-dark;
   cursor: pointer;
 }
+
+.button:link,
+.button:visited {
+  color: #fff;
+}
+
 .button:hover,
 .button:focus {
   background-color: $link-hover-color;
 }
-
 
 
 /**
