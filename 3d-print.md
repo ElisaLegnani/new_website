@@ -4,7 +4,14 @@ title: 3D Print
 permalink: /3d-print/
 ---
 
+* Table of Contents
+{:toc}
+
+## Direct3D
+
 Visit the Direrct3D [website](https://www.direct3d.it).
+
+## Research in medical technologies
 
 ---
 
