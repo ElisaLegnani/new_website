@@ -45,5 +45,8 @@ $on-large:         $on-laptop !default;
 @import
   "base",             // Defines element resets.
   "layout",           // Defines structure and style based on CSS selectors.
+  "about",
+  "footer",
+  "header",
   "home"
 ;
