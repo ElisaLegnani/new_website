@@ -3,21 +3,20 @@
  */
 .site-header {
   width: 100%;
-  //min-height: $spacing-unit * 1.865;
-  //line-height: $base-line-height * $base-font-size * 2.25;
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
   background-color: $background-color;
   border-bottom: 1px solid $border-color-01;
   top: 0; 
   position: sticky;
   z-index: 1000;
-  padding: 1.5rem 0;
-  transition: padding 0.3s ease;
   //transition: opacity 0.3s ease;
 
   &.scrolled {
+    min-height: $spacing-unit * 1.865;
+    line-height: $base-line-height * $base-font-size * 2.25;
     //opacity: 0.8;
-    padding: 0.6rem 0;
-    
+
     //&:hover {
     //  opacity: 1;
     //}
