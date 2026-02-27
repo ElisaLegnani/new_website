@@ -2,22 +2,30 @@
  * Site header
  */
 .site-header {
-  width: 100%;
-  min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 $spacing-unit;
+  min-height: 70px;
+
   background-color: $background-color;
   border-bottom: 1px solid $border-color-01;
-  top: 0; 
-  position: sticky;
-  z-index: 1000;
-  transition: opacity 0.3s ease;
+
+  //transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
 
   &.scrolled {
-    opacity: 0.8;
+    //opacity: 0.8;
+
     
-    &:hover {
-      opacity: 1;
-    }
+    //&:hover {
+    //  opacity: 1;
+    //}
   }
 }
 
@@ -41,101 +49,167 @@
   }
 }
 
-.site-nav {
-  float: right;
-  border: none;
-  background-color: inherit;
+/* ==============================
+   Site Header
+============================== */
 
-  label[for="nav-trigger"], #nav-trigger {
-    display: none;
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 $spacing-unit;
+  min-height: 70px;
+
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color-01;
+
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+  &.scrolled {
+    background-color: rgba($background-color, 0.95);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   }
+}
+
+/* ==============================
+   Site Title
+============================== */
+
+.site-title {
+  font-size: 1.625rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: $site-title-color;
+  margin: 0;
+
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+/* ==============================
+   Desktop Navigation
+============================== */
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: $spacing-unit;
 
   .nav-item {
-    display: inline-block;
+    text-decoration: none;
     color: $text-color;
-    margin-right: $spacing-unit * 0.5;
+    position: relative;
+    transition: color 0.2s ease;
 
     &:hover {
       color: $link-hover-color;
-      text-decoration: none;
     }
 
-    &:last-child {
-      margin-right: 0;
+    /* Optional animated underline */
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0;
+      height: 2px;
+      background-color: $link-hover-color;
+      transition: width 0.3s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
+
+/* ==============================
+   Mobile Toggle Button
+============================== */
+
+.nav-toggle {
+  display: none;
+}
+
+.menu-button {
+  display: none;
+  width: 28px;
+  height: 22px;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+
+  span {
+    height: 3px;
+    width: 100%;
+    background-color: $text-color;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+}
+
+/* Animate hamburger to X */
+
+.nav-toggle:checked + .menu-button span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle:checked + .menu-button span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle:checked + .menu-button span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* ==============================
+   Responsive (Mobile)
+============================== */
+
+@include media-query($on-medium) {
+
+  .menu-button {
+    display: flex;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 100%;
+    right: $spacing-unit;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+
+    background-color: $background-color;
+    border: 1px solid $border-color-01;
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 180px;
+
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+
+    transition: all 0.3s ease;
+
+    .nav-item {
+      padding: 0.5rem 0;
+      width: 100%;
     }
   }
 
-  @include media-query($on-medium) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit * 0.6;
-    background-color: $background-color;
-    border: 1px solid $border-color-01;
-    border-radius: 5px;
-    text-align: right;
-
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      cursor: pointer;
-    }
-
-    .menu-icon {
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 18px;
-      text-align: center;
-
-      &::before {
-        font-family: "Font Awesome 7 Free";
-        font-weight: 900;
-      }
-
-      > svg path {
-        fill: $border-color-03;
-      }
-    }
-
-    #nav-trigger {
-      ~ label[for=nav-trigger] .menu-icon {
-        &::before {
-          content: "\f0c9";
-          font-size: 1.25em;
-        }
-      }
-      ~ .nav-items {
-        clear: both;
-        display: none
-      }
-
-      &:checked {
-        ~ label[for=nav-trigger] .menu-icon::before {
-          content: "\f00d";
-          font-size: 1.5em;
-        }
-      
-        ~ .nav-items {
-          display: block;
-          padding-bottom: 5px;
-          
-          .nav-item {
-            margin-left: 20px;
-            padding: 5px 10px;
-          }
-        }
-      }
-    }
-
-    .nav-item {
-      display: block;
-      margin-right: $spacing-unit * 0.5;
-      padding: 5px 0;
-      color: $text-color;
-      line-height: $base-line-height;
-    }
+  .nav-toggle:checked ~ .site-nav {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
   }
 }
