@@ -47,8 +47,9 @@ ul, ol, dl, figure,
 }
 
 hr {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
+  border: 0;
+  border-top: 1px solid #e7e7e7;
+  margin: $spacing-unit * 0.8 0;
 }
 
 /**
@@ -137,7 +138,7 @@ blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.05);
+  font-size: 1.05rem;
   font-style: italic;
 
   > :last-child {

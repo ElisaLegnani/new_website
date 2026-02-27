@@ -22,3 +22,6 @@ plugins:
   - jekyll-target-blank
 
 exclude: [vendor]
+
+kramdown:
+  toc_levels: 1..2

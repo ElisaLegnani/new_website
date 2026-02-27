@@ -1,0 +1,152 @@
+/**
+ * Site header
+ */
+.site-header {
+  width: 100%;
+  //min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color-01;
+  top: 0; 
+  position: sticky;
+  z-index: 1000;
+  transition: line-height 0.3s ease;
+
+  &.scrolled {
+    //min-height: $spacing-unit * 1.865;
+    line-height: $base-line-height * $base-font-size * 1.5;
+    //opacity: 0.8;
+
+    //&:hover {
+    //  opacity: 1;
+    //}
+  }
+
+  @include media-query($on-palm) {
+    line-height: $base-line-height * $base-font-size * 1.5;
+  }
+}
+
+.site-title {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.625rem;
+  color: $site-title-color;
+
+  &:visited {
+    color: $site-title-color;
+  }
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+
+  &.scrolled {
+    font-size: 1.3rem;
+  }
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+    font-size: 1.3rem;
+  }
+}
+
+.site-nav {
+  float: right;
+  border: none;
+  background-color: inherit;
+
+  label[for="nav-trigger"], #nav-trigger {
+    display: none;
+  }
+
+  .nav-item {
+    display: inline-block;
+    color: $text-color;
+    margin-right: $spacing-unit * 0.5;
+
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: none;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  @include media-query($on-medium) {
+    position: absolute;
+    top: 7px;
+    right: $spacing-unit * 0.6;
+    background-color: $background-color;
+    border: 1px solid $border-color-01;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      float: right;
+      width: 24px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 12px;
+      text-align: center;
+
+      &::before {
+        font-family: "Font Awesome 7 Free";
+        font-weight: 900;
+      }
+
+      > svg path {
+        fill: $border-color-03;
+      }
+    }
+
+    #nav-trigger {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f0c9";
+          font-size: 1em;
+        }
+      }
+      ~ .nav-items {
+        clear: both;
+        display: none
+      }
+
+      &:checked {
+        ~ label[for=nav-trigger] .menu-icon::before {
+          content: "\f00d";
+          font-size: 1em;
+        }
+      
+        ~ .nav-items {
+          display: block;
+          padding-bottom: 5px;
+          
+          .nav-item {
+            margin-left: 20px;
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+
+    .nav-item {
+      display: block;
+      margin-right: $spacing-unit * 0.5;
+      padding: 5px 0;
+      color: $text-color;
+      line-height: $base-line-height;
+    }
+  }
+}
